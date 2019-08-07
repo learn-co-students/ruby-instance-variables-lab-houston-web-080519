@@ -86,12 +86,12 @@ Open up `dog.rb` and change the `Dog` class in the following way:
 ```ruby
 class Dog
 
-  def name=(dogs_name)
-    @this_dogs_name = dogs_name
+  def animal(cat)
+    cat = animal
   end
 
-  def name
-    @this_dogs_name
+  def animal
+    cat
   end
 end
 
